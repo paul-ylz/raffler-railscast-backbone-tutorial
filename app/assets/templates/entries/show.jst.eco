@@ -1,0 +1,11 @@
+<h1><%= @entry.get('name') %></h1>
+
+<h3>
+  <% if @entry.get('winner'): %>
+    Been a winner
+  <% else: %>
+    Never been a winner
+  <% end %>
+</h3>
+
+<button class="back" >Back to Raffler</a>
